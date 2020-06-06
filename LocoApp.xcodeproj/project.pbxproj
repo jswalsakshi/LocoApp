@@ -14,6 +14,10 @@
 		6C1BD78B248A439900462CD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C1BD78A248A439900462CD3 /* Assets.xcassets */; };
 		6C1BD78E248A439900462CD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C1BD78D248A439900462CD3 /* Preview Assets.xcassets */; };
 		6C1BD791248A439900462CD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C1BD78F248A439900462CD3 /* LaunchScreen.storyboard */; };
+		6CA2F073248B934100487A6B /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA2F072248B934100487A6B /* BackgroundView.swift */; };
+		6CA2F075248B943500487A6B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA2F074248B943500487A6B /* HeaderView.swift */; };
+		6CA2F077248B967F00487A6B /* CurrentWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA2F076248B967F00487A6B /* CurrentWeatherView.swift */; };
+		6CA2F079248B989F00487A6B /* DailyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA2F078248B989F00487A6B /* DailyWeatherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		6C1BD78D248A439900462CD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6C1BD790248A439900462CD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C1BD792248A439900462CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA2F072248B934100487A6B /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		6CA2F074248B943500487A6B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		6CA2F076248B967F00487A6B /* CurrentWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherView.swift; sourceTree = "<group>"; };
+		6CA2F078248B989F00487A6B /* DailyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +66,9 @@
 		6C1BD780248A439700462CD3 /* LocoApp */ = {
 			isa = PBXGroup;
 			children = (
+				6CA2F071248B931100487A6B /* View */,
 				6C1BD781248A439700462CD3 /* AppDelegate.swift */,
 				6C1BD783248A439700462CD3 /* SceneDelegate.swift */,
-				6C1BD788248A439700462CD3 /* ContentView.swift */,
 				6C1BD78A248A439900462CD3 /* Assets.xcassets */,
 				6C1BD78F248A439900462CD3 /* LaunchScreen.storyboard */,
 				6C1BD792248A439900462CD3 /* Info.plist */,
@@ -76,6 +84,18 @@
 				6C1BD78D248A439900462CD3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6CA2F071248B931100487A6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6C1BD788248A439700462CD3 /* ContentView.swift */,
+				6CA2F072248B934100487A6B /* BackgroundView.swift */,
+				6CA2F074248B943500487A6B /* HeaderView.swift */,
+				6CA2F076248B967F00487A6B /* CurrentWeatherView.swift */,
+				6CA2F078248B989F00487A6B /* DailyWeatherView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,10 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CA2F073248B934100487A6B /* BackgroundView.swift in Sources */,
+				6CA2F075248B943500487A6B /* HeaderView.swift in Sources */,
 				6C1BD782248A439700462CD3 /* AppDelegate.swift in Sources */,
 				6C1BD784248A439700462CD3 /* SceneDelegate.swift in Sources */,
+				6CA2F077248B967F00487A6B /* CurrentWeatherView.swift in Sources */,
 				6C1BD789248A439700462CD3 /* ContentView.swift in Sources */,
 				6C1BD787248A439700462CD3 /* LocoApp.xcdatamodeld in Sources */,
+				6CA2F079248B989F00487A6B /* DailyWeatherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
